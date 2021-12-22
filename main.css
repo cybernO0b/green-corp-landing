@@ -1,4 +1,4 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,6 +38,12 @@ body {
     padding: 15px;
   }
 
+  button:hover {
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s ease-in;
+  }
+
   .about__image {
     width: 500px;
   }
@@ -58,21 +64,21 @@ body {
     background-size: cover;
   }
   
-  .about h1{
+  .about h1 {
 
     font-size: 70px;
     line-height: 76px;
 
   }
 
-  .about p{
+  .about p {
       font-size: 18px;
       line-height: 30px;
       opacity: 0.8;
 
   }
 
-  .about button{
+  .about button {
 
     font-size: 18px;
     border-radius: 20px;
@@ -87,5 +93,125 @@ body {
     max-width: 550px;
   }
 
- 
+    .form-container {
+      width: 550px;
+    }
 
+    .form form {
+      display: grid;
+      grid-gap: 20px;
+      margin-top: 60px;
+    }
+
+    .form {
+      background-color: #1D263A;
+      color: #fff;
+      padding-top: 115px;
+      padding-bottom: 115px;
+      text-align: center;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .form h1 {
+      font-size: 48px;
+    }
+
+    .form p {
+      font-size: 18px;
+      opacity: 0.65;
+    }
+    
+    .form__group {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .form label {
+      font-size: 18px;
+      font-weight: 600;
+      padding-bottom: 15px;
+    }
+
+    .form input {
+      font-size: 18px;
+      color: #213053;
+      height: 60px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-radius: 15px;
+      border: none;
+    }
+
+    .form select {
+      font-size: 18px;
+      color: #213053;
+      height: 60px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-radius: 15px;
+      border: none;
+    }
+
+    .form__submit {
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 40px;
+    }
+
+    .form form {
+      display: grid;
+      grid-gap: 20px;
+      margin-top: 60px; 
+    } 
+
+    select {
+      appearance: none;
+    }
+
+    input {
+      outline: none;
+    }
+
+/*Подвал*/
+
+  footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+    .footer__container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer__copyright {
+      margin-top: 40px;
+      text-align: center;
+      opacity: 0.5;
+    }
+
+    .footer__group {
+      margin-right: 80px;
+    }
+
+    .footer__group h3 {
+      font-size: 16px;
+      opacity: 0.7;
+      margin-bottom: 30px;
+    }
+
+    .footer__links a {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+
+/*cyberN0Ob*/
